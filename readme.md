@@ -1,49 +1,75 @@
-# Django Blogging System
+# Django Blogging Platform
 
-A full-stack blogging platform built with Django, featuring user authentication,
-role-based permissions, post management, comments, search, media uploads,
-and dedicated dashboards.
+A full-stack blogging platform built with Django, featuring authentication, role-based permissions, blog management, comments, search, media uploads, and dedicated dashboards.
 
-## About the Project
+## 🚀 Live Demo
 
-This project is based on a Django blogging system that I studied and customized
-as part of my backend development learning.
+[Live Website](https://django-blog-platform-c4pp.onrender.com/)
 
-I used the project to strengthen my understanding of Django architecture,
-authentication, authorization, CRUD operations, database relationships,
-templates, media handling, and deployment.
+## 📌 About the Project
 
-I have customized the project for my portfolio and will continue improving
-its functionality, UI, and deployment.
+A full-stack Django blogging platform developed as part of my backend development work.
 
-## Features
+The project demonstrates practical implementation of:
+
+- Django project architecture
+- Authentication and authorization
+- CRUD operations
+- Database relationships
+- Django Groups and Permissions
+- Templates and views
+- Media file handling
+- Search and pagination
+- PostgreSQL database integration
+- Production deployment
+
+The application has been configured, customized, and deployed as a live web application.
+
+## ✨ Features
 
 - User registration and authentication
+- Login and logout functionality
 - Role-based access control
+- Django Groups and Permissions
 - Create, read, update, and delete blog posts
 - Category management
-- Unique URL slugs
-- Image/media uploads
+- Unique blog URL slugs
+- Image and media uploads
 - Comment system
 - Search functionality
 - Pagination
 - Featured and recent posts
 - Manager and editor dashboards
-- Django Groups and Permissions
-- Django admin integration
+- Django Admin integration
 - Custom error page
+- PostgreSQL production database
+- Production static file handling
+- Production media file serving
 
-## Tech Stack
+## 🛠️ Tech Stack
+
+### Backend
 
 - Python
 - Django
-- SQLite
+- PostgreSQL
+- SQLite (local development)
+
+### Frontend
+
 - HTML
 - CSS
 - JavaScript
 - Bootstrap
 
-## Project Structure
+### Production & Deployment
+
+- Render
+- Gunicorn
+- WhiteNoise
+- `dj-database-url`
+
+## 📂 Project Structure
 
 ```text
 blogging-system/
